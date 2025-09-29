@@ -1,0 +1,51 @@
+[
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "Soundrum 1",
+    "rating": 4.5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper, justo eget vehicula vestibulum, enim enim suscipit lectus, et sagittis nibh risus vel metus. Quisque eu ornare an",
+    "Genre": "Entertainment"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "WavePro X200",
+    "rating": 4.8,
+    "description": "Powerful wireless speaker with crystal clear sound, deep bass, and modern design. Perfect for outdoor and indoor events.",
+    "Genre": "Electronics"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "EcoLamp Glow",
+    "rating": 4.2,
+    "description": "A sustainable LED lamp with adjustable brightness and eco-friendly materials, ideal for study rooms and workspaces.",
+    "Genre": "Home & Living"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "AeroFit Pro",
+    "rating": 4.7,
+    "description": "Smart fitness tracker with heart rate monitoring, step counting, and water resistance. Syncs easily with your phone.",
+    "Genre": "Health & Fitness"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "GamerX Console",
+    "rating": 4.9,
+    "description": "Next-gen gaming console with ultra-fast load times, immersive graphics, and hundreds of exclusive titles.",
+    "Genre": "Gaming"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "ChefMate Mixer",
+    "rating": 4.4,
+    "description": "High-performance kitchen mixer with multiple attachments for baking, blending, and cooking enthusiasts.",
+    "Genre": "Kitchen Appliances"
+  },
+  {
+    "image": "https://lipsum.app/random/1600x900",
+    "product-name": "TravelMax Backpack",
+    "rating": 4.6,
+    "description": "Durable, water-resistant backpack with multiple compartments, designed for travelers and daily commuters.",
+    "Genre": "Travel & Lifestyle"
+  }
+]
