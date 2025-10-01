@@ -7,13 +7,14 @@ import './Cart.css'
 export default function Cart({ data }) {
     console.log(data)
     const { image, ["product-name"]: productName, rating, description, Genre } = data
-    const cascading = {
-        padding: '1,2rem 2.4rem',
-        backgroundColor: 'var( --bnt-hover-bg-color)',
+    const button_style = {
+        padding: '1.2rem 2.4rem',
+        // backgroundColor: 'var( --bnt-hover-bg-color)',
+        backgroundColor: `${rating >= 4.5 ? "#d8ebd1ff" : '#ffd4d4ff'}`,
         color: 'var(--bg  -color)',
-        fontSize: '16px'
+        fontSize: '17px'
     }
-    return ( 
+    return (
         <li className='card'>
             <div>
                 <img style={{ width: '100%' }}
@@ -25,10 +26,18 @@ export default function Cart({ data }) {
             </div>
             <div className='card-content'>
                 <h3>{productName}</h3>
-                <h4>rating : {rating} </h4>
+
+                {/* <h4>rating : <span className='average'>{rating}</span> </h4> */}
+                {/* <h4>rating : <span className='super-hit'>{rating}</span> </h4> */}
+                {/* CONDITIONAL STYLING */}
+                {/* <h4>rating : <span className={ rating>=4.4?'super-hit':'average' }>{rating}</span> </h4> */}
+                <h4>rating : <span className={`rating red-border ${rating >= 4.4 ? 'super-hit' : 'average'} `}>{rating}</span> </h4>
+
                 <p>{description}</p>
                 <p>Genre : {Genre}</p>
-                <button style={cascading}>watch now</button>
+
+                {/* HERE WE HAVE TO WAYS TO STYLE */}
+                <button style={button_style}>watch now</button>
                 {/* <button style={{
                     padding: '1,2rem 2.4rem',
                     backgroundColor: 'var( --bnt-hover-bg-color)',

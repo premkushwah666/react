@@ -1,12 +1,15 @@
 import './App.css'
+import { EventHandling } from './componets/EventHandling/EventHandling'
 import NetflixSeries from './componets/NetflixSeries'
+
 
 function App() {
 
   return (
   <section className='container'>
-    <h1 className='card-heading'> List of Netflix Series </h1>
-    <NetflixSeries />
+    {/* <h1 className='card-heading'> List of Netflix Series </h1> */}
+    <EventHandling /> 
+    {/* <NetflixSeries /> */}
   </section>
   )
 }

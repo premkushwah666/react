@@ -2,7 +2,7 @@
   {
     "image": "https://lipsum.app/random/1600x900",
     "product-name": "Soundrum 1",
-    "rating": 4.5,
+    "rating": 4.1,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper, justo eget vehicula vestibulum, enim enim suscipit lectus, et sagittis nibh risus vel metus. Quisque eu ornare an",
     "Genre": "Entertainment"
   },
@@ -23,7 +23,7 @@
   {
     "image": "https://lipsum.app/random/1600x900",
     "product-name": "AeroFit Pro",
-    "rating": 4.7,
+    "rating": 2.1,
     "description": "Smart fitness tracker with heart rate monitoring, step counting, and water resistance. Syncs easily with your phone.",
     "Genre": "Health & Fitness"
   },
