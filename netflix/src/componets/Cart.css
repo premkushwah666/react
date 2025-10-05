@@ -1,6 +1,4 @@
-.card {
-    /* padding: 2%; */
-    /* border-radius: 3%; */
+/* .card {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
         rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -9,7 +7,6 @@
     padding: 3.2rem 1.2rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between 2px; */
     gap : 1.2rem 
 }
 
@@ -37,4 +34,4 @@
 
 .red-border {
     border: 1px solid red;
-}
+} */

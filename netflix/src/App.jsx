@@ -1,6 +1,10 @@
 import './App.css'
 import { EventHandling } from './componets/EventHandling/EventHandling'
+import { LiftState } from './componets/liftStateUp/LiftStateUp'
 import NetflixSeries from './componets/NetflixSeries'
+import MyTodoList from './componets/projects/MyTodoList/MyTodoList'
+import TodoList from './componets/projects/TodoList/TodoList'
+import ToggleSwitch from './componets/projects/toggleSwitch/toggleSwitch'
 
 
 function App() {
@@ -8,8 +12,12 @@ function App() {
   return (
   <section className='container'>
     {/* <h1 className='card-heading'> List of Netflix Series </h1> */}
-    <EventHandling /> 
+    {/* <EventHandling />  */}
     {/* <NetflixSeries /> */}
+    {/* <LiftState/> */}
+    {/* <ToggleSwitch/> */}
+    {/* <MyTodoList/> */}
+    <TodoList/>
   </section>
   )
 }
