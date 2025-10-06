@@ -3,7 +3,7 @@ import { EventHandling } from './componets/EventHandling/EventHandling'
 import { LiftState } from './componets/liftStateUp/LiftStateUp'
 import NetflixSeries from './componets/NetflixSeries'
 import MyTodoList from './componets/projects/MyTodoList/MyTodoList'
-import TodoList from './componets/projects/TodoList/TodoList'
+import Todo from './componets/projects/TodoList/Todo'
 import ToggleSwitch from './componets/projects/toggleSwitch/toggleSwitch'
 
 
@@ -17,7 +17,7 @@ function App() {
     {/* <LiftState/> */}
     {/* <ToggleSwitch/> */}
     {/* <MyTodoList/> */}
-    <TodoList/>
+    <Todo/>
   </section>
   )
 }
