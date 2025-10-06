@@ -149,3 +149,12 @@ form button:hover {
     font-size: 0.9rem;
   }
 }
+
+
+.not-check { 
+  text-decoration: line-through;
+}
+
+.check { 
+  text-decoration: none
+}
